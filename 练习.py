@@ -1,49 +1,49 @@
-# import random
-# import time
-# while True:
-#     num = float(input("请输入华氏度"))
-#     t = (num - 32) * 5 / 9
-#     print(t)
-#
-# print("\n")
-# while True:
-#     num = float(input("请输入圆半径"))
-#     S = 3.14 * num ** 2
-#     C = 2 * 3.14 * num
-#     print("s",S)
-#     print("c",C)
+import random
+import time
+while True:
+    num = float(input("请输入华氏度"))
+    t = (num - 32) * 5 / 9
+    print(t)
 
-# print("\n")
-# while True:
-#     num = float(input("请输入年份"))
-#     if (num % 400) == 0:
-#         print("闰年")
-#     elif (num % 100) == 0:
-#         print("不是闰年")
-#     elif (num % 4) == 0:
-#         print("闰年")
-#     else:
-#         print("不是闰年")
+print("\n")
+while True:
+    num = float(input("请输入圆半径"))
+    S = 3.14 * num ** 2
+    C = 2 * 3.14 * num
+    print("s",S)
+    print("c",C)
 
-# print("\n")
-# while True:
-#     num = float(input("请输入英寸"))
-#     Y = num * 2.54
-#     print(Y,"cm")
+print("\n")
+while True:
+    num = float(input("请输入年份"))
+    if (num % 400) == 0:
+        print("闰年")
+    elif (num % 100) == 0:
+        print("不是闰年")
+    elif (num % 4) == 0:
+        print("闰年")
+    else:
+        print("不是闰年")
 
-# print("\n")
-# while True:
-#     num = float(input("请输入成绩"))
-#     if num >= 90:
-#         print("A")
-#     elif num >= 80 and num < 90:
-#         print("B")
-#     elif num >= 70 and num < 80:
-#         print("C")
-#     elif num >= 60 and num < 70:
-#         print("D")
-#     else:
-#         print("E")
+print("\n")
+while True:
+    num = float(input("请输入英寸"))
+    Y = num * 2.54
+    print(Y,"cm")
+
+print("\n")
+while True:
+    num = float(input("请输入成绩"))
+    if num >= 90:
+        print("A")
+    elif num >= 80 and num < 90:
+        print("B")
+    elif num >= 70 and num < 80:
+        print("C")
+    elif num >= 60 and num < 70:
+        print("D")
+    else:
+        print("E")
 
 print("\n")
 import math
