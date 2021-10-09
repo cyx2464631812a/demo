@@ -46,13 +46,12 @@ while True:
         print("E")
 
 print("\n")
-import math
 while True:
     A = float(input("请输入边长a",))
     B = float(input("请输入边长b",))
     C = float(input("请输入边长c",))
     if A + B > C and B + C > A and A + C > B :
         zc = A+B+C
-        S_sqrt = (((A + B + C) / 2 * ((A + B + C) / 2 - A) * ((A + B + C) / 2 - B) * ((A + B + C) / 2 - C)))** 0.5
+        S = (((A + B + C) / 2 * ((A + B + C) / 2 - A) * ((A + B + C) / 2 - B) * ((A + B + C) / 2 - C)))** 0.5
         print("周长",zc)
-        print("面积",S_sqrt)
+        print("面积",S)
