@@ -13,11 +13,12 @@ import time
 randint = random.randint(1, 30)  # 随机产生的数字
 K = 0
 while True:
+    print(randint)
     K = K + 1
     num=input("请输入一个数字")
     if num.isdigit():
         num=int(num)
-        if num == randint and K < 3:
+        if num == randint and K <= 3:
             print("OK")
             break
         elif num >randint and K < 3:
