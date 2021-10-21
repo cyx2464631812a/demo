@@ -11,7 +11,7 @@ print("*          5、查询         *")
 print("*          6、再见         *")
 print("***************************")
 bank = {}
-bank_name = "中国银行M78分行"
+bank_name = "中国农业银行肇东分行"
 
 
 def bank_add(account, username, password, country, province, street, door):
